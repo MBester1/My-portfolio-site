@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(200, 200, 200);
+    height: 50px;
+  }
+
+  
+
+  .btn {
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: rgb(200, 200, 200);
+    border: 1px solid rgb(200, 200, 200);
+    margin: 0 1rem;
+    color: black;
+  }
+
+  
+  .btn:hover {
+    background-color: rgb(210, 210, 210);
+    border-color: rgb(255, 255, 255);
+  }

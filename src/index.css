@@ -1,13 +1,163 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+body {
+  font-family: sans-serif;
+  margin: 3rem;
+  /* background-color: #dfdfdf; */
 }
+
+h1, h2 {
+  color: #333333;
+ text-align: center;
+ margin: 20px 0px 20px 0px;
+}
+
+p {
+  display: inline;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+}
+
+.main {
+  display: flex;
+  /* background-color: rgb(179, 207, 249); */
+  justify-content: space-evenly;
+  align-items: center;
+  height: 80%;
+}
+
+.headshot {
+  margin: 40px;
+  height: 30em;
+}
+
+
+
+.intro {
+  /* background-color: rgb(180, 180, 181); */
+  margin: 10%;
+  width: 50%;
+  /* font-size: larger; */
+  letter-spacing: 2px;
+  line-height: 30px;
+  /* border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2); */
+  padding: 1rem;
+}
+
+.aboutMain {
+  /* background-color: rgb(179, 207, 249); */
+  margin: 20px 0px 30px 0px;
+  height: 80%;
+}
+
+.aboutBlock {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* background-color: rgb(180, 180, 181); */
+  margin: 1%;
+  width: 100%;
+  /* font-size: larger; */
+  letter-spacing: 1.5px;
+  line-height: 20px;
+  /* border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2); */
+  padding: 0.5rem;
+}
+
+.aboutPics {
+  height: 170px;
+}
+
+.aboutPara {
+  width: 50%;
+}
+
+.skills {
+margin-top: 60px;
+background-color: blueviolet;
+}
+
+.footer {
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5px 5px 5px 5px;
+}
+
+.icon {
+  border-color: rgb(180, 180, 181);
+  color: rgb(125, 125, 125);
+}
+
+.icon:hover {
+  background-color: rgb(210, 210, 213);
+}
+
+/* .btn {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: rgb(180, 180, 181);
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(180, 180, 181);
+  margin: 0 1rem;
+} */
+
+/* .btn:hover {
+  background-color: rgb(156, 156, 157);
+  border-color: rgb(255, 255, 255);
+} */
+
+/* .btn--alt {
+  background-color: transparent;
+  color: #800040;
+}
+
+.btn--alt:hover {
+  background-color: #f8dae9;
+} */
+
+/* .card {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  width: 20rem;
+}
+
+.actions {
+  text-align: right;
+}
+
+.modal {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background-color: white;
+  padding: 1rem;
+  text-align: center;
+  width: 30rem;
+  z-index: 10;
+  position: fixed;
+  top: 20vh;
+  left: calc(50% - 15rem);
+}
+
+.backdrop {
+  position: fixed;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+} */
