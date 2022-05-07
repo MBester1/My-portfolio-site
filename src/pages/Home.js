@@ -28,13 +28,13 @@ function Home() {
                     Please reach out to me if you’d like to chat.
                 </span>
             </div>
-            <div className="footer">
+            {/* <div className="footer">
                 <FooterItem text='fb' />
                 <FooterItem className='icon' text='in' />
                 <FooterItem className='icon' text='tw' />
                 <FooterItem className='icon' text='insta' />
                 <FooterItem className='icon' text='@' />
-            </div>
+            </div> */}
         </div>
     );
 }

@@ -9,6 +9,7 @@ import MusicPage from './pages/Music';
 import ContactPage from './pages/Contact';
 import Home from "./pages/Home";
 import Navbar from './components/layout/Navbar';
+import Footer from './components/layout/Footer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path='/Music' element={<MusicPage />} />
         <Route path='/Contact' element={<ContactPage />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

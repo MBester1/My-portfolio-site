@@ -1,0 +1,41 @@
+.footer {
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px 5px 5px 5px;
+    color: #5e6160;
+  }
+  
+  .icon {
+    border-color: rgb(180, 180, 181);
+    color: rgb(125, 125, 125);
+    /* font: inherit;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: rgb(180, 180, 181);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(180, 180, 181);
+    margin: 0 1rem; */
+  }
+  
+  .icon:hover {
+    background-color: rgb(210, 210, 213);
+  }
+
+  .btn {
+    font: inherit;
+    padding: 0.2rem 0.75rem;
+    cursor: pointer;
+    border-radius: 4px;
+    /* background-color: rgb(200, 200, 200);
+    border: 1px solid rgb(200, 200, 200); */
+    margin: 0 1rem;
+    color: #5e6160;
+  }
+
+  
+  .btn:hover {
+    background-color: rgb(210, 210, 210);
+    border-color: rgb(255, 255, 255);
+  }
