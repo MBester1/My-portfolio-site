@@ -1,5 +1,5 @@
 // import NavbarItem from "../components/NavbarItem";
-import FooterItem from "../components/FooterItem";
+// import FooterItem from "../components/FooterItem";
 import React from "react";
 
 
@@ -19,13 +19,14 @@ function Home() {
             </div> */}
             <div className="main">
 
-                <img src="MikeB-1.jpg" className="headshot" />
+                <img src="MikeB-1.jpg" className="headshot" alt="Handsome guy" />
 
                 <span className="intro">
-                    Hi, I’m Michael, a web developer from Cape Town.
+                    Hi, I’m Michael. <br></br>
+                    I'm a web developer living in Cape Town.
                     I am passionate about building beautiful and effective web applications,
                     teaching, playing jazz guitar, and playing with my 2 young boys.
-                    Please reach out to me if you’d like to chat.
+                    Feel free to reach out to me if you’d like to chat.
                 </span>
             </div>
             {/* <div className="footer">

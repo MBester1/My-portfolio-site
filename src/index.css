@@ -15,45 +15,56 @@ body {
 h1, h2 {
   color: #646c6b;
  text-align: center;
- margin: 20px 0px 20px 0px;
+ margin: 20px 0px 10px 0px;
 }
 
 p {
   display: inline;
 }
 
-.header {
+/* .header {
   position: fixed;
   top: 0;
-}
+} */
 
 .main {
   display: flex;
   /* background-color: rgb(179, 207, 249); */
   justify-content: space-evenly;
   align-items: center;
-  height: 80%;
-  margin: 40px;
+  height: 500%;
+  margin: 60px;
 }
 
+
+
 .headshot {
-  margin: 40px;
-  height: 20em;
+  /* margin: 40px;
+  height: 20em; */
+  /* background-image: url("url"); */
+  width:140px;
+  height:140px;
+  background-size:contain;
+  background-position:center;
+  border-radius:50%;
+  object-fit: cover;
+  object-position: 0 20%;
 }
 
 
 
 .intro {
   /* background-color: rgb(180, 180, 181); */
-  margin: 10%;
-  width: 50%;
+  /* margin: 10%; */
+  margin: 10% 0 10% 0;
+  width: 60%;
   /* font-size: larger; */
   letter-spacing: 1px;
   line-height: 30px;
   /* border-radius: 4px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2); */
   padding: 1rem;
-  color: #5e6160;
+  color: rgb(94, 97, 96);
 }
 
 .aboutMain {
@@ -86,14 +97,7 @@ p {
   color: #646c6b;
 }
 
-.skills {
-margin-top: 60px;
-background-color: blueviolet;
-}
-
-
-
-/* .btn {
+.btn {
   font: inherit;
   padding: 0.5rem 1.5rem;
   cursor: pointer;
@@ -102,12 +106,14 @@ background-color: blueviolet;
   color: rgb(0, 0, 0);
   border: 1px solid rgb(180, 180, 181);
   margin: 0 1rem;
-} */
+  text-decoration: 2px solid gray;
+}
 
-/* .btn:hover {
+.btn:hover {
   background-color: rgb(156, 156, 157);
   border-color: rgb(255, 255, 255);
-} */
+  color: rgb(198, 3, 3);
+}
 
 /* .btn--alt {
   background-color: transparent;

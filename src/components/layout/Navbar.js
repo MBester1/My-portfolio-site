@@ -4,18 +4,19 @@ import classes from './Navbar.module.css';
 
 function Navbar() {
     return (
-        <header>
-            <h1>Michael Bester</h1>
-            <nav className={classes.navbar}>
-                <button className={classes.btn}><Link style={{ color: 'inherit', textDecoration: 'inherit' }} to='/'>Home</Link></button>
-                <button className={classes.btn}><Link style={{ color: 'inherit', textDecoration: 'inherit' }} to='/About'>About</Link></button>
-                <button className={classes.btn}><Link style={{ color: 'inherit', textDecoration: 'inherit' }} to='/Skills'>Skills</Link></button>
-                <button className={classes.btn}><Link style={{ color: 'inherit', textDecoration: 'inherit' }} to='/Portfolio'>Portfolio</Link></button>
-                <button className={classes.btn}><Link style={{ color: 'inherit', textDecoration: 'inherit' }} to='/Music'>Music</Link></button>
-                <button className={classes.btn}><Link style={{ color: 'inherit', textDecoration: 'inherit' }} to='/Contact'>Contact</Link></button>
+        <div className={classes.pagetop}>
+            <header>
+                <button className={classes.michael}><Link style={{ color: 'inherit', textDecoration: 'inherit' }} to='/'><h1>Michael Bester</h1></Link></button>
+                <nav className={classes.navbar}>
+                    <button className={classes.btn}><Link style={{ color: 'inherit', textDecoration: 'inherit' }} to='/'>Home</Link></button>
+                    <button className={classes.btn}><Link style={{ color: 'inherit', textDecoration: 'inherit' }} to='/About'>About</Link></button>
+                    <button className={classes.btn}><Link style={{ color: 'inherit', textDecoration: 'inherit' }} to='/Skills'>Skills</Link></button>
+                    <button className={classes.btn}><Link style={{ color: 'inherit', textDecoration: 'inherit' }} to='/Portfolio'>Portfolio</Link></button>
+                    {/* <button className={classes.btn}><Link style={{ color: 'inherit', textDecoration: 'inherit' }} to='/Music'>Music</Link></button> */}
+                    <button className={classes.btn}><Link style={{ color: 'inherit', textDecoration: 'inherit' }} to='/Contact'>Contact</Link></button>
 
 
-                {/* <h1>Michael Bester</h1>
+                    {/* <h1>Michael Bester</h1>
             <div className="navbar">
                 <NavbarItem text="Home" />
                 <NavbarItem text="About" />
@@ -25,8 +26,9 @@ function Navbar() {
                 <NavbarItem text="Contact me" />
 
             </div> */}
-            </nav>
-        </header>
+                </nav>
+            </header>
+        </div>
     )
 }
 

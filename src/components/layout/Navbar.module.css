@@ -3,15 +3,35 @@
     align-items: center;
     justify-content: space-evenly;
     /* background-color: rgb(200, 200, 200); */
-    height: 50px;
+    height: 70px;
   }
 
-  
+  /* .pagetop {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+  } */
+
+  .michael {
+    font-size: larger;
+    background-color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .michael:hover {
+    background-color: rgb(238, 237, 237);
+    cursor: pointer;
+  }
 
   .btn {
     font: inherit;
     padding: 0.2rem 0.75rem;
-    cursor: pointer;
+    
     border-radius: 4px;
     background-color: white;
     border: 1px solid white;
@@ -23,4 +43,5 @@
   .btn:hover {
     background-color: rgb(210, 210, 210);
     border-color: rgb(255, 255, 255);
+    cursor: pointer;
   }
