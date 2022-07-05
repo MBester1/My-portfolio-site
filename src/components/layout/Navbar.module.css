@@ -1,9 +1,12 @@
 .navbar {
+   
     display: flex;
+    
     align-items: center;
     justify-content: space-evenly;
-    /* background-color: rgb(200, 200, 200); */
     height: 70px;
+    flex: 1;
+
   }
 
   /* .pagetop {
@@ -15,33 +18,44 @@
   } */
 
   .michael {
-    font-size: larger;
+    /* font-size: larger; */
     background-color: white;
     border: none;
     display: flex;
     align-items: center;
-    margin: 0 auto;
+    padding: 1px;
+    margin: 2em auto;
+    color: #5e6160 !important;
+    transition: 0.3s;
   }
 
   .michael:hover {
-    background-color: rgb(238, 237, 237);
+   
     cursor: pointer;
+    color: #a2a4a3 !important;
+    transform: translateY(-2px);
+    
   }
 
   .btn {
     font: inherit;
     padding: 0.2rem 0.75rem;
-    
     border-radius: 4px;
     background-color: white;
     border: 1px solid white;
     margin: 0 1rem;
     color: #5e6160;
+    transition: 0.2s;
   }
-
   
-  .btn:hover {
+  .active {
     background-color: rgb(210, 210, 210);
     border-color: rgb(255, 255, 255);
     cursor: pointer;
+  }
+
+  .btn:hover {
+    cursor: pointer;
+    color: #a2a4a3;
+    transform: translateY(-2px);
   }

@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: space-between;
     color: #646c6b;
+    margin: 1em;
     }
 
 .icon_container {
@@ -15,49 +16,66 @@
     align-items: center;
     /* background-color: rgb(219, 219, 219); */
     border:1px solid rgb(191, 191, 191);
-    margin: 0 0 60px 0;
+    margin: 0 0 30px 0;
+}
+
+.icon {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color: #757b7a;
+    font-size: small;
 }
 
 .html5 {
     color: rgba(228, 75, 55, 0.959);
     height: 5rem;
+    margin: 8px;
 }
 
 .css3 {
     color: rgb(54, 148, 192);
     height: 5rem;
+    margin: 8px;
 }
 
 .js {
     color: rgb(247, 243, 54);
     height: 5rem;
+    margin: 8px;
 }
 
 .react {
     color: rgb(28, 203, 216);
     height: 5rem;
+    margin: 8px;
 }
 
 .php {
     height: 5rem;
+    margin: 8px;
 }
 
 .github {
     height: 5rem;
     color: black;
+    margin: 8px;
 }
 
 .figma {
     height: 5rem;
     color: #646c6b;
+    margin: 8px;
 }
 
 .nodejs {
     color: rgb(55, 194, 27);
     height: 5rem;
+    margin: 8px;
 }
 
 .npm {
     color:rgb(194, 52, 52);
     height: 5rem;
+    margin: 8px;
 }

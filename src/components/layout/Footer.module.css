@@ -1,28 +1,24 @@
 .footer {
-    width: 40%;
+    /* width: 40%; */
     display: flex;
-    justify-content: space-evenly;
-    margin: 40px 5px 5px 0px;
+    justify-content: center;
+    margin: 40px 0 0 0;
     color: #5e6160;
     /* background-color: grey; */
   }
   
   .icon {
-    border-color: rgb(180, 180, 181);
-    color: rgb(125, 125, 125);
-    /* font: inherit;
-    padding: 0.5rem 1.5rem;
-    cursor: pointer;
-    border-radius: 4px;
-    background-color: rgb(180, 180, 181);
-    color: rgb(0, 0, 0);
-    border: 1px solid rgb(180, 180, 181);
-    margin: 0 1rem; */
+    border: none;
+    background-color: white;
+    transition: 0.2s;
   }
   
   .icon:hover {
-    background-color: rgb(210, 210, 213);
+    transform: translateY(-3px);
+    box-shadow: 5px 5px 5px #5e6160;
+    background-color: #e2e2e2;
   }
+
 
   .btn {
     font: inherit;

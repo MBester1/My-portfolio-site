@@ -10,21 +10,21 @@ import { SocialMediaIconsReact } from 'social-media-icons-react';
 
 function Footer() {
     return (
-        <div>
-            <div className={classes.footer}>
-                {/* <FooterItem text='fb' />
+
+        <div className={classes.footer}>
+            {/* <FooterItem text='fb' />
                 <FooterItem className='icon' text='in' />
                 <FooterItem className='icon' text='tw' />
                 <FooterItem className='icon' text='insta' />
                 <FooterItem className='icon' text='@' /> */}
 
-                {/* <button><Link style={{ color: 'inherit', textDecoration: 'inherit' }} to='/Music'>fb</Link></button>
+            {/* <button><Link style={{ color: 'inherit', textDecoration: 'inherit' }} to='/Music'>fb</Link></button>
                 <button><Link style={{ color: 'inherit', textDecoration: 'inherit' }} to='/Music'>in</Link></button>
                 <button><Link style={{ color: 'inherit', textDecoration: 'inherit' }} to='/Music'>tw</Link></button>
                 <button><Link style={{ color: 'inherit', textDecoration: 'inherit' }} to='/Music'>ins</Link></button>
                 <button><Link style={{ color: 'inherit', textDecoration: 'inherit' }} to='/Music'>@</Link></button> */}
 
-                {/* <ExternalLink href="https://www.facebook.com/michael.a.bester.1" style={{ color: 'inherit', textDecoration: 'inherit' }} className={classes.btn}>
+            {/* <ExternalLink href="https://www.facebook.com/michael.a.bester.1" style={{ color: 'inherit', textDecoration: 'inherit' }} className={classes.btn}>
                     fb
                 </ExternalLink>
                 <ExternalLink href="https://www.instagram.com/michael_bester_music/?hl=en" style={{ color: 'inherit', textDecoration: 'inherit' }} className={classes.btn}>
@@ -43,7 +43,7 @@ function Footer() {
                     <span>gitHub</span>
                 </ExternalLink> */}
 
-                {/* <SocialIcon url="https://twitter.com/michaelbguitar" />
+            {/* <SocialIcon url="https://twitter.com/michaelbguitar" />
                 <SocialIcon url="https://www.facebook.com/michael.a.bester.1" />
                 <SocialIcon url="https://www.instagram.com/michael_bester_music/?hl=en" />
                 <SocialIcon url="https://www.linkedin.com/in/michael-bester-3a7384143/" />
@@ -51,15 +51,31 @@ function Footer() {
                 <SocialIcon url="mailto:michaelbesterguitar@gmail.com?body=My custom mail body" /> */}
 
 
-                {/* <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" icon="twitter" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(26,166,233,1)" url="https://twitter.com/michaelbguitar" size="48" /> */}
-                <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="1" borderStyle="solid" icon="twitter" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(94, 97, 96, 1)" iconSize="3" roundness="50%" url="https://twitter.com/michaelbguitar" size="33" />
-                <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="1" borderStyle="solid" icon="facebook" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(94, 97, 96, 1)" iconSize="3" roundness="50%" url="https://www.facebook.com/michael.a.bester.1" size="33" />
-                <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="1" borderStyle="solid" icon="instagram" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(94, 97, 96, 1)" iconSize="3" roundness="50%" url="https://www.instagram.com/michael_bester_music/?hl=en" size="33" />
-                <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="1" borderStyle="solid" icon="linkedin" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(94, 97, 96, 1)" iconSize="3" roundness="50%" url="https://www.linkedin.com/in/michael-bester-3a7384143/" size="33" />
-                <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="1" borderStyle="solid" icon="github" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(94, 97, 96, 1)" iconSize="3" roundness="50%" url="https://github.com/MBester1/" size="33" />
-                <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="1" borderStyle="solid" icon="mail" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(94, 97, 96, 1)" iconSize="3" roundness="50%" url="mailto:michaelbesterguitar@gmail.com?body=My custom mail body" size="33" />
+            {/* <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" icon="twitter" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(26,166,233,1)" url="https://twitter.com/michaelbguitar" size="48" /> */}
+
+            <div className="row">
+                <div className="col-4 col-md-2 py-2 px-1">
+                    <button className={classes.icon}><SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="1" borderStyle="solid" icon="twitter" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(94, 97, 96, 1)" iconSize="3" roundness="50%" url="https://twitter.com/michaelbguitar" size="30" /></button>
+                </div>
+                <div className="col-4 col-md-2 py-2 px-1">
+                    <button className={classes.icon}><SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="1" borderStyle="solid" icon="instagram" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(94, 97, 96, 1)" iconSize="3" roundness="50%" url="https://www.instagram.com/michael_bester_music/?hl=en" size="30" /></button>
+                </div>
+                <div className="col-4 col-md-2 py-2 px-1">
+                    <button className={classes.icon}><SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="1" borderStyle="solid" icon="linkedin" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(94, 97, 96, 1)" iconSize="3" roundness="50%" url="https://www.linkedin.com/in/michael-bester-3a7384143/" size="30" /></button>
+                </div>
+                <div className="col-4 col-md-2 py-2 px-1">
+                    <button className={classes.icon}><SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="1" borderStyle="solid" icon="facebook" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(94, 97, 96, 1)" iconSize="3" roundness="50%" url="https://www.facebook.com/michael.a.bester.1" size="30" /></button>
+                </div>
+                <div className="col-4 col-md-2 py-2 px-1">
+                    <button className={classes.icon}><SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="1" borderStyle="solid" icon="github" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(94, 97, 96, 1)" iconSize="3" roundness="50%" url="https://github.com/MBester1/" size="30" /></button>
+                </div>
+                <div className="col-4 col-md-2 py-2 px-1">
+                    <button className={classes.icon}><SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="1" borderStyle="solid" icon="mail" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(94, 97, 96, 1)" iconSize="3" roundness="50%" url="mailto:michaelbesterguitar@gmail.com?body=My custom mail body" size="30" /></button>
+                </div>
             </div>
-        </div >
+
+        </div>
+
     )
 }
 
