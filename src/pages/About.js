@@ -20,9 +20,9 @@ function AboutPage() {
                         <br></br>
                         <p className="aboutPara">I have been a musician for most of my life, and music has taken me all over the world.
                             Recently I have had the pleasure of releasing my own music and performing regularly with my own band, which has been
-                            hugely rewarding. You can hear my music at -
+                            hugely rewarding. You can hear my music
                             <ExternalLink href="https://www.michaelbester.co.za/sounds" style={{ color: 'inherit' }}
-                                className=''>THIS LINK.</ExternalLink>
+                                className=''> here. </ExternalLink>
                         </p>
                         <br></br>
                         <br></br>

@@ -6,7 +6,7 @@ import AboutPage from './pages/About';
 import SkillsPage from "./pages/Skills";
 import PortfolioPage from './pages/Portfolio';
 import MusicPage from './pages/Music';
-import ContactPage from './pages/Contact';
+// import ContactPage from './pages/Contact';
 import Home from "./pages/Home";
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
@@ -23,7 +23,7 @@ function App() {
         <Route path='/Skills' element={<SkillsPage />} />
         <Route path='/Portfolio' element={<PortfolioPage />} />
         <Route path='/Music' element={<MusicPage />} />
-        <Route path='/Contact' element={<ContactPage />} />
+        {/* <Route path='/Contact' element={<ContactPage />} /> */}
       </Routes>
 
       <Footer />

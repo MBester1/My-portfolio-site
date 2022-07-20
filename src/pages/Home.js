@@ -29,7 +29,7 @@ function Home() {
                             Hi, I’m Michael.
                             I'm a web developer living in Cape Town.
                             I am passionate about building beautiful and effective web applications,
-                            teaching, playing jazz guitar, and playing with my 2 young boys.
+                            hanging out with my 2 young sons, and playing jazz guitar.
                             Feel free to reach out to me if you’d like to chat.
                         </p>
                     </div>

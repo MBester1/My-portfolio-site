@@ -23,21 +23,21 @@ function Navbar() {
                     <button className={classes.btn}><Link style={{ color: 'inherit', textDecoration: 'inherit' }} to='/Portfolio'>Portfolio</Link></button>
                     <button className={classes.btn}><Link style={{ color: 'inherit', textDecoration: 'inherit' }} to='/Contact'>Contact</Link></button> */}
                     <div className="row  text-center justify-content-evenly">
-                        <div className="col-12 col-md-2">
+                        <div className="col-12 col-md-3">
                             <NavButton title="Home" path="/" />
                         </div>
-                        <div className="col-12 col-md-2">
+                        <div className="col-12 col-md-3">
                             <NavButton title="About" path="/About" />
                         </div>
-                        <div className="col-12 col-md-2">
+                        <div className="col-12 col-md-3">
                             <NavButton title="Skills" path="/Skills" />
                         </div>
-                        <div className="col-12 col-md-2">
+                        <div className="col-12 col-md-3">
                             <NavButton title="Portfolio" path="/Portfolio" />
                         </div>
-                        <div className="col-12 col-md-2">
+                        {/* <div className="col-12 col-md-2">
                             <NavButton title="Contact" path="/Contact" />
-                        </div>
+                        </div> */}
                     </div>
                     {/* <h1>Michael Bester</h1>
             <div className="navbar">
