@@ -3,58 +3,22 @@
 import classes from './Footer.module.css';
 
 import React from 'react';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram, faLinkedin, faFacebook, faGithubSquare, faGitlab } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 // import { ExternalLink } from 'react-external-link';
 // import { SocialIcon } from 'react-social-icons';
-import { SocialMediaIconsReact } from 'social-media-icons-react';
+// import { SocialMediaIconsReact } from 'social-media-icons-react';
 
 
 function Footer() {
     return (
 
         <div className={classes.footer}>
-            {/* <FooterItem text='fb' />
-                <FooterItem className='icon' text='in' />
-                <FooterItem className='icon' text='tw' />
-                <FooterItem className='icon' text='insta' />
-                <FooterItem className='icon' text='@' /> */}
-
-            {/* <button><Link style={{ color: 'inherit', textDecoration: 'inherit' }} to='/Music'>fb</Link></button>
-                <button><Link style={{ color: 'inherit', textDecoration: 'inherit' }} to='/Music'>in</Link></button>
-                <button><Link style={{ color: 'inherit', textDecoration: 'inherit' }} to='/Music'>tw</Link></button>
-                <button><Link style={{ color: 'inherit', textDecoration: 'inherit' }} to='/Music'>ins</Link></button>
-                <button><Link style={{ color: 'inherit', textDecoration: 'inherit' }} to='/Music'>@</Link></button> */}
-
-            {/* <ExternalLink href="https://www.facebook.com/michael.a.bester.1" style={{ color: 'inherit', textDecoration: 'inherit' }} className={classes.btn}>
-                    fb
-                </ExternalLink>
-                <ExternalLink href="https://www.instagram.com/michael_bester_music/?hl=en" style={{ color: 'inherit', textDecoration: 'inherit' }} className={classes.btn}>
-                    <span>insta</span>
-                </ExternalLink>
-                <ExternalLink href="https://twitter.com/michaelbguitar" style={{ color: 'inherit', textDecoration: 'inherit' }} className={classes.btn}>
-                    <span>tw</span>
-                </ExternalLink>
-                <ExternalLink href="https://www.linkedin.com/in/michael-bester-3a7384143/" style={{ color: 'inherit', textDecoration: 'inherit' }} className={classes.btn}>
-                    <span>ins</span>
-                </ExternalLink>
-                <ExternalLink href="mailto:michaelbesterguitar@gmail.com?body=My custom mail body" style={{ color: 'inherit', textDecoration: 'inherit' }} className={classes.btn}>
-                    <span>@</span>
-                </ExternalLink>
-                <ExternalLink href="https://github.com/MBester1/My-portfolio-site" style={{ color: 'inherit', textDecoration: 'inherit' }} className={classes.btn}>
-                    <span>gitHub</span>
-                </ExternalLink> */}
-
-            {/* <SocialIcon url="https://twitter.com/michaelbguitar" />
-                <SocialIcon url="https://www.facebook.com/michael.a.bester.1" />
-                <SocialIcon url="https://www.instagram.com/michael_bester_music/?hl=en" />
-                <SocialIcon url="https://www.linkedin.com/in/michael-bester-3a7384143/" />
-                <SocialIcon url="https://github.com/MBester1/" />
-                <SocialIcon url="mailto:michaelbesterguitar@gmail.com?body=My custom mail body" /> */}
-
-
-            {/* <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" icon="twitter" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(26,166,233,1)" url="https://twitter.com/michaelbguitar" size="48" /> */}
 
             <div className="row">
-                <div className="col-4 col-md-2 py-2 px-1">
+                {/* <div className="col-4 col-md-2 py-2 px-1">
                     <button className={classes.icon}><SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="1" borderStyle="solid" icon="twitter" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(94, 97, 96, 1)" iconSize="3" roundness="50%" url="https://twitter.com/michaelbguitar" size="30" /></button>
                 </div>
                 <div className="col-4 col-md-2 py-2 px-1">
@@ -71,6 +35,35 @@ function Footer() {
                 </div>
                 <div className="col-4 col-md-2 py-2 px-1">
                     <button className={classes.icon}><SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="1" borderStyle="solid" icon="mail" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(94, 97, 96, 1)" iconSize="3" roundness="50%" url="mailto:michaelbesterguitar@gmail.com?body=My custom mail body" size="30" /></button>
+                </div> */}
+
+                {/* <div className="col-4 col-md-2 py-2 px-1">
+                    <a href='https://twitter.com/michaelbguitar' target={"_blank"} rel="noreferrer">
+                    <button className={classes.icon}><FontAwesomeIcon  icon={faTwitter} className={classes.github}></FontAwesomeIcon></button></a>
+                </div> */}
+                <div className="col-4 col-md-2 py-2 px-1">
+                    <a href='mailto:michaelbesterguitar@gmail.com?body=My custom mail body' target={"_blank"} rel="noreferrer">
+                    <button className={classes.icon}><FontAwesomeIcon  icon={faEnvelope} className={classes.github}></FontAwesomeIcon></button></a>
+                </div>
+                <div className="col-4 col-md-2 py-2 px-1">
+                    <a href='https://github.com/MBester1/' target={"_blank"} rel="noreferrer">
+                    <button className={classes.icon}><FontAwesomeIcon  icon={faGithubSquare} className={classes.github}></FontAwesomeIcon></button></a>
+                </div>
+                <div className="col-4 col-md-2 py-2 px-1">
+                    <a href='https://gitlab.com/mikebester' target={"_blank"} rel="noreferrer">
+                    <button className={classes.icon}><FontAwesomeIcon  icon={faGitlab} className={classes.github}></FontAwesomeIcon></button></a>
+                </div>
+                <div className="col-4 col-md-2 py-2 px-1">
+                    <a href='https://www.instagram.com/michael_bester_music/?hl=en' target={"_blank"} rel="noreferrer">
+                    <button className={classes.icon}><FontAwesomeIcon  icon={faInstagram} className={classes.github}></FontAwesomeIcon></button></a>
+                </div>
+                <div className="col-4 col-md-2 py-2 px-1">
+                    <a href='https://www.linkedin.com/in/michael-bester-3a7384143/' target={"_blank"} rel="noreferrer">
+                    <button className={classes.icon}><FontAwesomeIcon  icon={faLinkedin} className={classes.github}></FontAwesomeIcon></button></a>
+                </div>
+                <div className="col-4 col-md-2 py-2 px-1">
+                    <a href='https://www.facebook.com/michael.a.bester.1' target={"_blank"} rel="noreferrer">
+                    <button className={classes.icon}><FontAwesomeIcon  icon={faFacebook} className={classes.github}></FontAwesomeIcon></button></a>
                 </div>
             </div>
 

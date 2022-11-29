@@ -1,7 +1,6 @@
 
 import { Routes, Route } from 'react-router-dom';
 
-
 import AboutPage from './pages/About';
 import SkillsPage from "./pages/Skills";
 import PortfolioPage from './pages/Portfolio';
@@ -13,7 +12,7 @@ import Footer from './components/layout/Footer';
 
 function App() {
   return (
-    <div className='container'>
+    <div className="container">
       <div className="row">
         <Navbar />
       </div>

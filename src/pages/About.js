@@ -5,7 +5,7 @@ import { ExternalLink } from 'react-external-link';
 function AboutPage() {
     return (
         <div>
-            <div className="container pt-5 pt-md-1">
+            <div className="container main pt-5 pt-md-1">
                 <div className="row justify-content-between align-items-center py-3">
                     <div className="col-12 col-lg-5">
                         {/* <img src="Besters.jpg" className="img-fluid" alt="My good-looking family" /> */}

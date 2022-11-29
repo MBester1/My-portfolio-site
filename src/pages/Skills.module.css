@@ -28,30 +28,37 @@
 }
 
 .html5 {
-    color: rgba(228, 75, 55, 0.959);
+    color: #e34c26;
     height: 5rem;
     margin: 8px;
 }
 
 .css3 {
-    color: rgb(54, 148, 192);
+    color: #039BE5;
     height: 5rem;
     margin: 8px;
 }
 
 .js {
-    color: rgb(247, 243, 54);
+    color: #FFD600;
     height: 5rem;
     margin: 8px;
 }
 
 .react {
-    color: rgb(28, 203, 216);
+    color: #61DBFB;
     height: 5rem;
     margin: 8px;
 }
 
 .php {
+    color: #474A8A;
+    height: 5rem;
+    margin: 8px;
+}
+
+.vue {
+    color: #41B883;
     height: 5rem;
     margin: 8px;
 }
@@ -62,6 +69,12 @@
     margin: 8px;
 }
 
+.gitlab {
+    height: 5rem;
+    color: #fc6d26;
+    margin: 8px;
+}
+
 .figma {
     height: 5rem;
     color: #646c6b;
@@ -69,13 +82,20 @@
 }
 
 .nodejs {
-    color: rgb(55, 194, 27);
+    /* color: rgb(55, 194, 27); */
+    color: #3c873a;
     height: 5rem;
     margin: 8px;
 }
 
+
 .npm {
-    color:rgb(194, 52, 52);
+    color:#cb3837;
     height: 5rem;
     margin: 8px;
+}
+
+.bootstrap {
+    color:rgb(118, 15, 197);
+    height: 5rem;
 }
