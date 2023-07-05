@@ -1,13 +1,12 @@
-.navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    height: 70px;
-    flex: 1;
+/* .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  flex: 1;
+} */
 
-  }
-
-  /* .pagetop {
+/* .pagetop {
     width: 100%;
     display: flex;
     align-items: center;
@@ -15,45 +14,43 @@
     top: 0;
   } */
 
-  .michael {
-    /* font-size: larger; */
-    background-color: white;
-    border: none;
-    display: flex;
-    align-items: center;
-    padding: 1px;
-    margin: 2em auto;
-    color: #5e6160 !important;
-    transition: 0.3s;
-  }
+.michael {
+  /* font-size: larger; */
+  background-color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  padding: 1px;
+  margin: 1em auto;
+  color: #5e6160 !important;
+  transition: 0.3s;
+}
 
-  .michael:hover {
-   
-    cursor: pointer;
-    color: #a2a4a3 !important;
-    transform: translateY(-2px);
-    
-  }
+.michael:hover {
+  cursor: pointer;
+  color: #a2a4a3 !important;
+  transform: translateY(-2px);
+}
 
-  .btn {
-    font: inherit;
-    padding: 0.2rem 0.75rem;
-    border-radius: 4px;
-    background-color: white;
-    border: 1px solid white;
-    margin: 0 1rem;
-    color: #5e6160;
-    transition: 0.2s;
-  }
-  
-  .active {
-    background-color: rgb(210, 210, 210);
-    border-color: rgb(255, 255, 255);
-    cursor: pointer;
-  }
+.btn {
+  font: inherit;
+  padding: 0.2rem 0.75rem;
+  border-radius: 4px;
+  background-color: white;
+  border: 1px solid white;
+  margin: 0 1rem;
+  color: #5e6160;
+  transition: 0.2s;
+}
 
-  .btn:hover {
-    cursor: pointer;
-    color: #a2a4a3;
-    transform: translateY(-2px);
-  }
+.active {
+  background-color: rgb(210, 210, 210);
+  border-color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: #a2a4a3;
+  transform: translateY(-2px);
+}

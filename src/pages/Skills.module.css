@@ -1,101 +1,101 @@
 .skills {
-    /* margin-top: 60px; */
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    color: #646c6b;
-    margin: 1em;
-    }
+  /* margin-top: 60px; */
+  height: 100%;
+  /* display: flex;
+  flex-direction: column; */
+  justify-content: space-between;
+  color: #646c6b;
+  /* margin: 1em; */
+}
 
 .icon_container {
-    width: 100%;
-    height: 8rem;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    /* background-color: rgb(219, 219, 219); */
-    border:1px solid rgb(191, 191, 191);
-    margin: 0 0 30px 0;
+  width: 100%;
+  /* height: 6rem; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* background-color: rgb(219, 219, 219); */
+
+  /* margin: 0 0 30px 0; */
 }
 
 .icon {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    color: #757b7a;
-    font-size: small;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #757b7a;
+  font-size: small;
 }
 
 .html5 {
-    color: #e34c26;
-    height: 5rem;
-    margin: 8px;
+  color: #e34c26;
+  height: 5em;
+  margin: 5px;
 }
 
 .css3 {
-    color: #039BE5;
-    height: 5rem;
-    margin: 8px;
+  color: #039be5;
+  height: 5em;
+  margin: 5px;
 }
 
 .js {
-    color: #FFD600;
-    height: 5rem;
-    margin: 8px;
+  color: #ffd600;
+  height: 5em;
+  margin: 5px;
 }
 
 .react {
-    color: #61DBFB;
-    height: 5rem;
-    margin: 8px;
+  color: #61dbfb;
+  height: 5em;
+  margin: 5px;
 }
 
 .php {
-    color: #474A8A;
-    height: 5rem;
-    margin: 8px;
+  color: #474a8a;
+  height: 5em;
+  margin: 5px;
 }
 
 .vue {
-    color: #41B883;
-    height: 5rem;
-    margin: 8px;
+  color: #41b883;
+  height: 5em;
+  margin: 5px;
 }
 
 .github {
-    height: 5rem;
-    color: black;
-    margin: 8px;
+  height: 5em;
+  color: black;
+  margin: 5px;
 }
 
 .gitlab {
-    height: 5rem;
-    color: #fc6d26;
-    margin: 8px;
+  height: 5em;
+  color: #fc6d26;
+  margin: 5px;
 }
 
 .figma {
-    height: 5rem;
-    color: #646c6b;
-    margin: 8px;
+  height: 5em;
+  color: #646c6b;
+  margin: 5px;
 }
 
 .nodejs {
-    /* color: rgb(55, 194, 27); */
-    color: #3c873a;
-    height: 5rem;
-    margin: 8px;
+  /* color: rgb(55, 194, 27); */
+  color: #3c873a;
+  height: 5em;
+  margin: 5px;
 }
 
-
 .npm {
-    color:#cb3837;
-    height: 5rem;
-    margin: 8px;
+  color: #cb3837;
+  height: 5em;
+  margin: 5px 5px 0 5px;
 }
 
 .bootstrap {
-    color:rgb(118, 15, 197);
-    height: 5rem;
+  color: rgb(118, 15, 197);
+  height: 5em;
+  margin: 5px;
 }
