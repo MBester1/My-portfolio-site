@@ -17,8 +17,8 @@ function App() {
       <div className="row">
         <Navbar />
         <Home />
-        <Skills />
         <Portfolio />
+        <Skills />
         <About />
       </div>
       {/* <Routes>

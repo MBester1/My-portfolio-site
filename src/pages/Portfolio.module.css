@@ -2,13 +2,32 @@
   border: none;
   background-color: white;
   transition: 0.2s;
-  color: #5e6160;
-  font-size: 20px;
+  color: #787777;
+  font-size: 25px;
   margin: 10px 15px;
+  border-radius: 12%;
+}
+
+.icon:hover {
+  color: #b3afaf;
 }
 
 .main {
   margin: 2em 0;
+}
+
+.underline {
+  width: 8em;
+  height: 0.25rem;
+  background-color: grey;
+  margin: 30px auto;
+}
+
+.line {
+  width: 12em;
+  height: 0.3rem;
+  background-color: rgb(176, 175, 175);
+  margin: 0 auto;
 }
 
 h4 {

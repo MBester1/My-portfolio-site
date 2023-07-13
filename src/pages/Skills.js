@@ -13,18 +13,24 @@ import {
   faVuejs,
   faGitlab,
   faBootstrap,
+  faMongodb,
 } from "@fortawesome/free-brands-svg-icons";
 import classes from "./Skills.module.css";
+import "../index.css";
 // import SkillsIcon from "./SkillsIcon";
 // import FooterItem from "../components/FooterItem";
 
 function SkillsPage() {
   return (
     <div className={classes.skills} id="skills">
-      <section>
-        <div className="container">
-          <h3>My tech stack:</h3>
-          <div className="row  border rounded border-dark shadow-sm p-2 mb-4">
+      <div className="row align-items-center text-center mt-3">
+        <h2>Technical skills</h2>
+        <div className={classes.line}></div>
+      </div>
+      <section className="row align-items-start text-center mb-4">
+        <div className="col-12 col-lg-4 align-items-center text-center p-4 mt-3 border shadow-sm">
+          <h3>Front-end:</h3>
+          <div className="row rounded p-2 mb-2">
             <div className="col-6 col-md-4 col-xl-3">
               <div className={classes.icon}>
                 <FontAwesomeIcon
@@ -73,12 +79,18 @@ function SkillsPage() {
             <div className="col-6 col-md-4 col-xl-3">
               <div className={classes.icon}>
                 <FontAwesomeIcon
-                  icon={faPhp}
-                  className={classes.php}
+                  icon={faBootstrap}
+                  className={classes.bootstrap}
                 ></FontAwesomeIcon>
-                PHP
+                Bootstrap
               </div>
             </div>
+          </div>
+        </div>
+
+        <div className="col-12 col-lg-4 align-items-center text-center p-4 mt-3 border shadow-sm">
+          <h3>Back-end:</h3>
+          <div className="row rounded p-2 mb-2">
             <div className="col-6 col-md-4 col-xl-3">
               <div className={classes.icon}>
                 <FontAwesomeIcon
@@ -88,13 +100,41 @@ function SkillsPage() {
                 Node
               </div>
             </div>
+            <div className="col-6 col-md-4 col-xl-3">
+              <div className={classes.icon}>
+                <img src="mongodb.svg" alt="" className={classes.mongo} />
+                MongoDB
+              </div>
+            </div>
+            <div className="col-6 col-md-4 col-xl-3">
+              <div className={classes.icon}>
+                <img src="mysql.svg" alt="" className={classes.mongo} />
+                MySQL
+              </div>
+            </div>
+
+            <div className="col-6 col-md-4 col-xl-3">
+              <div className={classes.icon}>
+                <img src="express.svg" alt="" className={classes.express} />
+                Express
+              </div>
+            </div>
+            <div className="col-6 col-md-4 col-xl-3">
+              <div className={classes.icon}>
+                <FontAwesomeIcon
+                  icon={faPhp}
+                  className={classes.php}
+                ></FontAwesomeIcon>
+                PHP
+              </div>
+            </div>
           </div>
         </div>
 
-        <div className="container">
+        <div className="col-12 col-lg-4 align-items-center text-center p-4 mt-3 border shadow-sm">
           <h3>Other tools:</h3>
-          <div className="row justify-content-evenly border rounded border-dark shadow-sm p-2 mb-4">
-            <div className="col-6 col-md-4 col-xl-2">
+          <div className="row rounded p-2 mb-2">
+            <div className="col-6 col-md-4 col-xl-4">
               <div className={classes.icon}>
                 <FontAwesomeIcon
                   icon={faNpm}
@@ -103,7 +143,7 @@ function SkillsPage() {
                 NPM
               </div>
             </div>
-            <div className="col-6 col-md-4 col-xl-2">
+            <div className="col-6 col-md-4 col-xl-4">
               <div className={classes.icon}>
                 <FontAwesomeIcon
                   icon={faFigma}
@@ -112,16 +152,13 @@ function SkillsPage() {
                 Figma
               </div>
             </div>
-            <div className="col-6 col-md-4 col-xl-2">
+            <div className="col-6 col-md-4 col-xl-4">
               <div className={classes.icon}>
-                <FontAwesomeIcon
-                  icon={faBootstrap}
-                  className={classes.bootstrap}
-                ></FontAwesomeIcon>
-                Bootstrap
+                <img src="git.svg" alt="" className={classes.mongo} />
+                git
               </div>
             </div>
-            <div className="col-6 col-md-4 col-xl-2">
+            <div className="col-6 col-md-4 col-xl-4">
               <div className={classes.icon}>
                 <FontAwesomeIcon
                   icon={faGithub}
@@ -130,7 +167,7 @@ function SkillsPage() {
                 Github
               </div>
             </div>
-            {/* <div className="col-sm-6 col-md-4 col-xl-2">
+            <div className="col-6 col-md-4 col-xl-4">
               <div className={classes.icon}>
                 <FontAwesomeIcon
                   icon={faGitlab}
@@ -138,7 +175,7 @@ function SkillsPage() {
                 ></FontAwesomeIcon>
                 Gitlab
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </section>

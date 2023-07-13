@@ -1,23 +1,27 @@
 .skills {
   /* margin-top: 60px; */
-  height: 100%;
+  /* height: 100%; */
   /* display: flex;
   flex-direction: column; */
   justify-content: space-between;
   color: #646c6b;
-  /* margin: 1em; */
+  margin-bottom: 3em;
 }
 
-.icon_container {
+.line {
+  width: 12em;
+  height: 0.3rem;
+  background-color: rgb(176, 175, 175);
+  margin: 0 auto;
+}
+
+/* .icon_container {
   width: 100%;
-  /* height: 6rem; */
+
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  /* background-color: rgb(219, 219, 219); */
-
-  /* margin: 0 0 30px 0; */
-}
+} */
 
 .icon {
   display: flex;
@@ -25,58 +29,71 @@
   align-items: center;
   color: #757b7a;
   font-size: small;
+  margin-bottom: 1em;
+  /* margin: 15px 0; */
+}
+
+.mongo {
+  height: 3em;
+  margin: 5px;
+}
+
+.express {
+  height: 3em;
+  width: 6em;
+  margin: 5px;
 }
 
 .html5 {
   color: #e34c26;
-  height: 5em;
+  height: 3em;
   margin: 5px;
 }
 
 .css3 {
   color: #039be5;
-  height: 5em;
+  height: 3em;
   margin: 5px;
 }
 
 .js {
   color: #ffd600;
-  height: 5em;
+  height: 3em;
   margin: 5px;
 }
 
 .react {
   color: #61dbfb;
-  height: 5em;
+  height: 3em;
   margin: 5px;
 }
 
 .php {
   color: #474a8a;
-  height: 5em;
+  height: 3em;
   margin: 5px;
 }
 
 .vue {
   color: #41b883;
-  height: 5em;
+  height: 3em;
   margin: 5px;
 }
 
 .github {
-  height: 5em;
+  height: 3em;
   color: black;
   margin: 5px;
 }
 
 .gitlab {
-  height: 5em;
+  height: 3em;
   color: #fc6d26;
   margin: 5px;
 }
 
 .figma {
-  height: 5em;
+  height: 3em;
   color: #646c6b;
   margin: 5px;
 }
@@ -84,18 +101,18 @@
 .nodejs {
   /* color: rgb(55, 194, 27); */
   color: #3c873a;
-  height: 5em;
+  height: 3em;
   margin: 5px;
 }
 
 .npm {
   color: #cb3837;
-  height: 5em;
-  margin: 5px 5px 0 5px;
+  height: 3em;
+  margin: 5px;
 }
 
 .bootstrap {
   color: rgb(118, 15, 197);
-  height: 5em;
+  height: 3em;
   margin: 5px;
 }

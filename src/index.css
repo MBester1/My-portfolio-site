@@ -5,7 +5,7 @@
 body {
   font-family: sans-serif;
   margin: 0 auto;
-  padding-top: 4rem;
+  padding-top: 2rem;
 }
 
 h2 {
@@ -25,7 +25,28 @@ p {
 
 .main {
   display: flex;
-  margin: 2rem 0;
+  margin: 1rem 0 0 0;
+  padding-top: 40px;
+}
+
+.icon {
+  border: none;
+  border-radius: 10%;
+  background-color: white;
+  transition: 0.2s;
+  color: #787777;
+  font-size: 25px;
+  margin: 10px 15px;
+}
+
+.icon:hover {
+  color: #b3afaf;
+  transform: scale(1.1);
+  /* box-shadow: 2px 2px 2px #c5c5c5; */
+}
+
+h4 {
+  color: rgb(1, 114, 185);
 }
 
 .headshot {
@@ -71,7 +92,7 @@ p {
   color: #646c6b;
 }
 
-.btn {
+/* .btn {
   font: inherit;
   padding: 0.5rem 1.5rem;
   cursor: pointer;
@@ -87,6 +108,28 @@ p {
   background-color: rgb(156, 156, 157);
   border-color: rgb(255, 255, 255);
   color: rgb(198, 3, 3);
+} */
+
+.btn {
+  color: #646c6b;
+  cursor: pointer;
+}
+
+.nav-link {
+  transition: transform 0.4s;
+}
+
+.nav-link:hover {
+  transform: scale(1.1);
+  color: rgb(196, 194, 194) !important;
+  /* transition: 0.3s; */
+}
+
+.line {
+  width: 12em;
+  height: 0.3rem;
+  background-color: rgb(176, 175, 175);
+  margin: 0 auto;
 }
 
 @media (max-width: 1200px) {
@@ -108,4 +151,18 @@ p {
   .main {
     margin: 2em 0;
   }
+}
+
+#portfolio {
+  padding-top: 60px;
+  background: #bed4ed77;
+}
+
+#skills {
+  padding-top: 60px;
+}
+
+#about {
+  background: #bed4ed77;
+  padding-top: 60px;
 }

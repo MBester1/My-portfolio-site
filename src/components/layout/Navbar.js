@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 // import NavbarItem from '../NavbarItem';
 import classes from "./Navbar.module.css";
 import NavButton from "../NavButton";
+import "../../index.css";
 
 // const NavButton = ({ title, path }) => {
 //     const location = useLocation()
@@ -56,8 +57,8 @@ function Navbar() {
       </button> */}
       <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid justify-content-center">
-          <a className="navbar-brand" href="#">
-            Michael Bester
+          <a className="navbar-brand nav-link" href="#home">
+            <img src="mblogodarkblue.png" alt="" style={{ height: "30px" }} />
           </a>
 
           <button
@@ -80,12 +81,13 @@ function Navbar() {
               <a className="nav-link mx-5" aria-current="page" href="#home">
                 Home
               </a>
+              <a className="nav-link mx-5" href="#portfolio">
+                Projects
+              </a>
               <a className="nav-link mx-5" href="#skills">
                 Skills
               </a>
-              <a className="nav-link mx-5" href="#portfolio">
-                Portfolio
-              </a>
+
               <a className="nav-link mx-5" href="#about">
                 About
               </a>
