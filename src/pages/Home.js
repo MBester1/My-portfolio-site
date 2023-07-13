@@ -35,17 +35,20 @@ function Home() {
               Hi, I’m Michael. I'm a full-stack web developer living in Cape
               Town. I am passionate about building beautiful and effective web
               applications. Feel free to reach out to me if you’d like to chat.
-            </p>
-            <a
-              href="mailto:michaelbesterguitar@gmail.com?body=My custom mail body"
-              target={"_blank"}
-              rel="noreferrer"
-            >
-              <button className="icon">
-                <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
-              </button>
-            </a>
+            </p>{" "}
+            <div>
+              <a
+                href="mailto:michaelbesterguitar@gmail.com?body=My custom mail body"
+                target={"_blank"}
+                rel="noreferrer"
+              >
+                <button className="icon">
+                  <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
+                </button>
+              </a>
+            </div>
           </div>
+
           <div>
             {/* <div className="col-12 col-lg-9 offset-lg-3">
               <a
