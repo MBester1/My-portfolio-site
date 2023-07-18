@@ -5,15 +5,15 @@ import "../index.css";
 
 function AboutPage() {
   return (
-    <div id="about">
+    <div id="about" className="mt-1">
       <div className="col12 text-center mt-3">
         <h2>About</h2>
 
         <div className="line"></div>
       </div>
-      <div className="container main pt-md-1 mb-3">
-        <div className="row justify-content-between align-items-center my-lg-5">
-          <div className="col-12 col-lg-5 p-5">
+      <div className="container my-3">
+        <div className="row justify-content-between align-items-center my-lg-5 ">
+          <div className="col-12 col-lg-5">
             {/* <img src="Besters.jpg" className="img-fluid" alt="My good-looking family" /> */}
             <img
               src="Michael2.jpg"
@@ -29,10 +29,17 @@ function AboutPage() {
             <br></br>
             <br></br>
             <p className="aboutPara">
-              I have been a musician for most of my life, and music has taken me
-              all over the world. Web development has taught me to use
-              creativity in a different way, to be a problem-solver and to be
-              detail-oriented.
+              I have been a musician for most of my life, and music has taught
+              me a lot about working with focus, translating ideas into reality,
+              and the importance of communication and teamwork in realising a
+              goal.
+            </p>
+            <br></br>
+            <br></br>
+            <p className="aboutPara">
+              I am inspired by the world around me, and the challenge of how to
+              make it better every day. I believe technology is one of those
+              ways and this motivates me to become a better developer.
             </p>
           </div>
         </div>

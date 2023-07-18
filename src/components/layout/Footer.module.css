@@ -1,26 +1,28 @@
 .footer {
-  display: flex;
-  justify-content: center;
-  margin: 0 0 40px 0;
-  color: #5e6160;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* margin: 0 0 20px 0; */
+  /* color: #5e6160;
+  border: 1px solid lightgrey; */
 }
 
 .icon {
   display: flex;
   color: #5e6160;
-  padding: 10px 15px;
+  padding: 10px 10px;
   border: none;
-  margin: 10px auto;
+  margin: 0 auto;
   font-size: 25px;
   border-radius: 1%;
   background-color: white;
-  transition: 0.2s;
+  transition: 0.3s;
 }
 
 .icon:hover {
   transform: translateY(-3px);
   box-shadow: 3px 3px 3px #d2d0d0;
   background-color: #edeaea;
+  color: #8f8f8f;
 }
 
 .btn {

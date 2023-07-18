@@ -22,7 +22,7 @@ import "../index.css";
 
 function SkillsPage() {
   return (
-    <div className={classes.skills} id="skills">
+    <div id="skills">
       <div className="row align-items-center text-center mt-3">
         <h2>Technical skills</h2>
         <div className={classes.line}></div>

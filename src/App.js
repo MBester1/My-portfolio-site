@@ -3,7 +3,7 @@ import AboutPage from "./pages/About";
 import SkillsPage from "./pages/Skills";
 import PortfolioPage from "./pages/Portfolio";
 import MusicPage from "./pages/Music";
-import ContactPage from "./pages/Contact";
+import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Skills from "./pages/Skills";
@@ -13,13 +13,15 @@ import Footer from "./components/layout/Footer";
 
 function App() {
   return (
-    <div className="container d-flex flex-column">
-      <div className="row">
+    <div className="container">
+      <div>
         <Navbar />
         <Home />
         <Portfolio />
         <Skills />
+
         <About />
+        <Contact />
       </div>
       {/* <Routes>
         <Route path="/" element={<Home />} />

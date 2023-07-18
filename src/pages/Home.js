@@ -34,19 +34,14 @@ function Home() {
             <p>
               Hi, I’m Michael. I'm a full-stack web developer living in Cape
               Town. I am passionate about building beautiful and effective web
-              applications. Feel free to reach out to me if you’d like to chat.
-            </p>{" "}
-            <div>
-              <a
-                href="mailto:michaelbesterguitar@gmail.com?body=My custom mail body"
-                target={"_blank"}
-                rel="noreferrer"
-              >
-                <button className="icon">
+              applications. Feel free to reach out to me if you’d like to chat.{" "}
+              <a href="#contact">
+                <button className="email-icon">
                   <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
                 </button>
               </a>
-            </div>
+            </p>{" "}
+            <div></div>
           </div>
 
           <div>

@@ -8,14 +8,14 @@ import "../index.css";
 
 function PortfolioPage() {
   return (
-    <div id="portfolio">
+    <div id="portfolio" className="mb-3">
       <div className="row align-items-center text-center mt-3">
         <h2>Projects</h2>
         <div className={classes.line}></div>
       </div>
 
       {/* Project 1: */}
-      <div className="row align-items-center text-center p-4 mt-3">
+      <div className="row align-items-center text-center p-4 my-3">
         <div className="col-12 mb-4">
           <h4>1. YelpCamp</h4>
           <div className="col-12 col-lg-8 offset-lg-2">
@@ -30,7 +30,7 @@ function PortfolioPage() {
               </small>
             </p>
           </div>
-          <div className="col-lg-6 offset-lg-3 mt-3">
+          <div className="col-lg-8 offset-lg-2 mt-3">
             <img src="Yelp2.png" alt="" className="img-fluid mb-3" />
           </div>
           <div className="col-12">
@@ -60,7 +60,7 @@ function PortfolioPage() {
       </div>
 
       {/* Project 2: */}
-      <div className="row align-items-center text-center p-4 ">
+      <div className="row align-items-center text-center p-4 my-4">
         <div className="col-12 mb-4">
           <h4>2. Full-stack to-do app</h4>
           <div className="col-12 col-lg-8 offset-lg-2">
@@ -93,7 +93,7 @@ function PortfolioPage() {
       </div>
 
       {/* Project 3: */}
-      <div className="row align-items-center text-center p-4 mb-4 ">
+      <div className="row align-items-center text-center p-4 my-4 ">
         <div className="col-12  mb-4">
           <h4>3. Personal Portfolio</h4>
           <p className="fw-light">
@@ -113,7 +113,7 @@ function PortfolioPage() {
                 ></FontAwesomeIcon>
               </button>
             </a>
-            <ExternalLink
+            {/* <ExternalLink
               href="https://my-portfolio-site-git-master-mbester1.vercel.app/"
               style={{ color: "inherit", textDecoration: "inherit" }}
               className={classes.btn}
@@ -124,7 +124,7 @@ function PortfolioPage() {
                   className={classes.github}
                 />
               </button>
-            </ExternalLink>
+            </ExternalLink> */}
           </div>
         </div>
         {/* <div className={classes.line}></div> */}

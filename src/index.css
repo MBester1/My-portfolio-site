@@ -14,6 +14,12 @@ h2 {
   margin: 40px 0px 30px 0px;
 }
 
+h5 {
+  color: #7d797c;
+  text-align: center;
+  /* margin: 40px 0px 30px 0px; */
+}
+
 a {
   text-decoration: none;
   color: #6c646a;
@@ -42,6 +48,22 @@ p {
 .icon:hover {
   color: #b3afaf;
   transform: scale(1.1);
+  /* box-shadow: 2px 2px 2px #c5c5c5; */
+}
+
+.email-icon {
+  border: none;
+  border-radius: 10%;
+  background-color: white;
+  transition: 0.2s;
+  color: #787777;
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+.email-icon:hover {
+  color: #b3afaf;
+  transform: scale(1.2);
   /* box-shadow: 2px 2px 2px #c5c5c5; */
 }
 
@@ -107,12 +129,22 @@ h4 {
 .btn:hover {
   background-color: rgb(156, 156, 157);
   border-color: rgb(255, 255, 255);
-  color: rgb(198, 3, 3);
+  color: rgb(198, 3, 3) !important;
 } */
 
 .btn {
   color: #646c6b;
   cursor: pointer;
+  background-color: white;
+  transition: 0.3s;
+  border-color: rgb(196, 194, 194) !important;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  color: rgb(196, 194, 194) !important;
+  background-color: white;
+  border-color: rgb(196, 194, 194) !important;
 }
 
 .nav-link {
@@ -153,16 +185,26 @@ h4 {
   }
 }
 
-#portfolio {
+/* #portfolio {
   padding-top: 60px;
-  background: #bed4ed77;
-}
+  background: #ade7ef41;
+} */
 
 #skills {
   padding-top: 60px;
 }
 
-#about {
-  background: #bed4ed77;
+#contact,
+#portfolio {
+  background: #dfe3fdcc;
   padding-top: 60px;
+}
+
+#about {
+  /* background: #bed4ed77; */
+  padding-top: 60px;
+}
+
+#contactForm {
+  background: rgba(205, 205, 205, 0.477);
 }

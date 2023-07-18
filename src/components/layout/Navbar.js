@@ -91,6 +91,9 @@ function Navbar() {
               <a className="nav-link mx-5" href="#about">
                 About
               </a>
+              <a className="nav-link mx-5" href="#contact">
+                Contact
+              </a>
             </div>
           </div>
         </div>
